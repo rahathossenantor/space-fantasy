@@ -4,7 +4,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-[65px] fixed top-0 left-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-10">
+    <div className="w-full h-[65px] fixed top-0 left-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50">
       <div className="h-full flex flex-row items-center justify-center md:justify-between lg:justify-between xl:justify-between mx-5 md:mx-5 lg:mx-10 xl:mx-10">
         <a className="h-auto w-auto hidden md:flex lg:flex xl:flex flex-row items-center">
           <Image src="/NavLogo.png" alt="logo" width={45} height={45} className="cursor-pointer hover:animate-slowspin" />
