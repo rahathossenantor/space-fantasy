@@ -7,12 +7,11 @@ import Image from "next/image";
 
 const Encryption = () => {
   return (
-    <div className="flex flex-row relative items-center justify-center min-h-screen w-full h-full">
+    <div className="flex flex-row relative items-center justify-center min-h-screen mx-5 md:mx-5 lg:mx-10 xl:mx-10">
       <div className="absolute w-auto h-auto top-0 z-[5]">
         <motion.div
           variants={slideInFromTop}
-          className="text-[40px] font-medium text-center text-gray-200"
-        >
+          className="text-[40px] font-medium text-center text-gray-200">
           Performance
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             {" "}
@@ -58,8 +57,7 @@ const Encryption = () => {
           playsInline
           preload="false"
           className="w-full h-auto"
-          src="/encryption.webm/"
-        />
+          src="/encryption.webm/"/>
       </div>
     </div>
   );

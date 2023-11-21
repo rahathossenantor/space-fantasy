@@ -15,7 +15,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
         alt={title}
         width={1000}
         height={1000}
-        className="w-full object-contain"
+        className="w-full h-60 md:h-64 lg:h-[270px] xl:h-72 2xl:h-[290px] inline-block"
       />
 
       <div className="relative p-4">
